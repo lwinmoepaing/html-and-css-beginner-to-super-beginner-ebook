@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector | Lwin Moe Paing</title>
+  </head>
+  <body>
+    <form action="selector.html" method="get">
+      <h3>Select Gender</h3>
+
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" name="gender" value="other" id="other" checked />
+      <label for="other">Other</label>
+
+      <br />
+
+      <h3>Languages</h3>
+
+      <input type="checkbox" name="language" value="en" id="en" checked />
+      <label for="en">English</label>
+
+      <input type="checkbox" name="language" value="cn" id="cn" />
+      <label for="cn">Chinese</label>
+
+      <input type="checkbox" name="language" value="my" id="my" />
+      <label for="my">Myanmar</label>
+
+      <br />
+
+      <h3>Cities</h3>
+
+      <select name="city">
+        <option value="YGN">Yangon</option>
+        <option value="MDY">Mandalay</option>
+        <option value="SHN" selected>SHAN</option>
+      </select>
+
+      <br />
+      <br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
