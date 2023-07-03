@@ -1,0 +1,26 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.border {
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+}
+
+.bg-default {
+  background-color: #dfdfdf;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p.underline {
+  text-decoration: underline;
+}
+
+.text-red {
+  color: red;
+}
