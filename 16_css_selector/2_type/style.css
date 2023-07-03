@@ -1,0 +1,13 @@
+h1 {
+  background-color: slateblue;
+}
+
+p,
+span {
+  color: red;
+}
+
+h2,
+h3 {
+  background-color: yellow;
+}
