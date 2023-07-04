@@ -1,0 +1,7 @@
+h1 ~ h2 {
+  background: green;
+}
+
+h2 ~ p {
+  background: yellow;
+}
