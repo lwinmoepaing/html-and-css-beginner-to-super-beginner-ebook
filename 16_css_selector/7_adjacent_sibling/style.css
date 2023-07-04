@@ -1,0 +1,7 @@
+h1 + h2 {
+  background: red;
+}
+
+h2 + p {
+  background: #dfdfdf;
+}
