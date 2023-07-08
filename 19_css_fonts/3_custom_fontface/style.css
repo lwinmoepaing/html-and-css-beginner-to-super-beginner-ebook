@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Zombie Holocaust";
+  src: url("fonts/ZombieHolocaust.eot");
+  src: url("fonts/ZombieHolocaust.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ZombieHolocaust.woff2") format("woff2"),
+    url("fonts/ZombieHolocaust.woff") format("woff"),
+    url("fonts/ZombieHolocaust.ttf") format("truetype"),
+    url("fonts/ZombieHolocaust.svg#ZombieHolocaust") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Zombie Holocaust";
+}
