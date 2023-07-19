@@ -1,0 +1,45 @@
+/* Container */
+div {
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.container {
+  padding: 2px;
+  background: #2b2b2b;
+}
+
+/* Background Colors */
+.bg-pink {
+  background-color: pink;
+}
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+/* Widths */
+.width-auto {
+  width: auto;
+}
+.width-250px {
+  width: 250px;
+}
+.width-50-percent {
+  width: 50%;
+}
+.width-80-percent {
+  width: 80%;
+}
+.width-100-percent {
+  width: 100%;
+}
+
+/* Helpers */
+.padding-left-50px {
+  padding-left: 50px;
+}
+.margin-left-50px {
+  margin-left: 50px;
+}
