@@ -1,0 +1,46 @@
+a {
+    color: white;
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: #de1767;
+}
+
+a:visited {
+    color: white;
+    background-color: #241233;
+    padding: 10px;
+    border-radius: 8px;
+} 
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #dfdfdf;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+}
+
+button:active {
+    color: white;
+    background: #241233;
+}
+
+.input {
+    min-width: 100px;
+    padding: 10px;
+    background-color: #dfdfdf;
+    border: 1px solid #cbcbcb;
+    border-radius: 8px;
+}
+
+.input:focus {
+    outline: 2px solid #9217de;
+}
+
+li[class~="red"] {
+    color: red;
+}
