@@ -1,0 +1,36 @@
+/* Container */
+div {
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+.container {
+  padding: 2px;
+  background: #2b2b2b;
+}
+
+/* Background Colors */
+.bg-pink {
+  background-color: pink;
+}
+.bg-lightblue {
+  background-color: lightblue;
+}
+.bg-rose {
+  background-color: #ff3988;
+}
+
+/* Widths */
+.width-200px {
+  width: 200px;
+}
+
+/* Heights */
+.height-auto {
+  height: auto;
+}
+.height-200px {
+  height: 200px;
+}
+.height-50-percent {
+  height: 50%;
+}
