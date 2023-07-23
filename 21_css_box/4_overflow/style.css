@@ -1,0 +1,44 @@
+/* Container */
+div {
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+.container {
+  padding: 2px;
+  background: #2b2b2b;
+}
+/* Background Colors */
+.bg-pink {
+  background-color: pink;
+}
+.bg-lightblue {
+  background-color: lightblue;
+}
+.bg-rose {
+  background-color: #ff3988;
+}
+.bg-dark {
+  background-color: #2b2b2b;
+}
+/* Text */
+.text-white {
+  color: white;
+}
+/* Overflows */
+.overflow-scroll {
+  overflow: scroll;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-auto {
+  overflow: auto;
+}
+/* Widths */
+.width-150px {
+  width: 150px;
+}
+/* Heights */
+.height-150px {
+  height: 150px;
+}
