@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 30px auto;
+  justify-content: space-between;
+  text-align: center;
+}
+.square {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 4px; */
+  font-size: 20px;
+  font-family: monospace;
+}
+.border-solid {
+  border: 10px solid #de1767;
+}
+.border-dashed {
+  border: 10px dashed #de1767;
+}
+.border-dotted {
+  border: 10px dotted #de1767;
+}
+.border-double {
+  border: 10px double #de1767;
+}
+.border-inset {
+  border: 10px inset #de1767;
+}
+.border-outset {
+  border: 10px outset #de1767;
+}
+.border-groove {
+  border: 10px groove #de1767;
+}
+.border-ridge {
+  border: 10px ridge #de1767;
+}
+
+/* Border Specific */
+.border-bottom-solid {
+  border-bottom: 10px solid #de1767;
+}
+.border-left-dotted {
+  border-left: 10px dotted #de1767;
+}
+.border-top-dashed {
+  border-top: 10px dashed #de1767;
+}
+.border-right-double {
+  border-right: 10px double #de1767;
+}
+
+/* Long Term */
+.border {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #de1767;
+}
+.border-left-style {
+    border-left-width: 10px;
+    border-left-style: dotted;
+    border-left-color: #de1767;
+}
+.border-top-style {
+    border-top-width: 10px;
+    border-top-style: double;
+    border-top-color: #de1767;
+}
+.border-mix-style {
+    border-width: 10px 20px 5px 10px;
+    border-style: dotted dashed solid double;
+    border-color: #2b2b2b #de1767 #478fcc lightgreen;
+}
