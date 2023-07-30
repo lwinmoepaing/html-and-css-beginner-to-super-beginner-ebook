@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.container {
+  border: 0.5px solid #2a2a2a;
+  margin-bottom: 14px;
+}
+
+.container > div {
+  background-color: pink;
+}
+
+.border {
+  border: 2px solid #de1767;
+  border-radius: 2px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+
+/* Margins */
+.margin-0-auto {
+  margin: 0 auto;
+}
+.margin-20px-auto {
+  margin: 20px auto;
+}
+
+/* Paddings */
+.padding-20px {
+  padding: 20px;
+}
+.padding-left-20px {
+  padding-left: 20px;
+}
+.padding-10px-5px {
+  padding: 10px 5px;
+}
+
+.padding-each {
+  padding: 20px 10px 20px 10px;
+}
+
+/* Background Colors */
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+.bg-lightblue {
+  background-color: lightblue;
+}
+.bg-rose {
+  background-color: #ff3988;
+}
+.bg-dark {
+  background-color: #2b2b2b;
+}
