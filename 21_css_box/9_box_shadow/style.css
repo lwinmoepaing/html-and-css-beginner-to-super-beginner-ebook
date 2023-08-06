@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+h1 {
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  gap: 0.5em;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* Box Shadow With Blue */
+.box-shadow-one {
+  box-shadow: 5px 5px 5px 0px #333;
+}
+.box-shadow-two {
+  box-shadow: 15px 5px 5px 0px #333;
+}
+.box-shadow-three {
+  box-shadow: 5px 15px 5px 0px #333;
+}
+.box-shadow-four {
+  box-shadow: 0px 0px 10px 0px #333;
+}
+
+/* Spread Shadow */
+.box-shadow-five {
+  box-shadow: 0px 0px 0px 5px #333;
+}
+.box-shadow-six {
+  box-shadow: 0px 0px 5px 5px #333;
+}
+.box-shadow-seven {
+  box-shadow: 5px 0px 5px 5px #333;
+}
+.box-shadow-eight {
+  box-shadow: 5px 5px 5px 5px #333;
+}
+
+/* Multiple Box Shadow */
+.box-shadow-multi-one {
+  box-shadow: 5px 5px 0px 0px red, 10px 10px 0px 0px green,
+    15px 15px 0px 0px blue;
+}
+.box-shadow-multi-two {
+  box-shadow: -5px -5px 0px 0px red, 
+              -10px -10px 0px 0px green,
+              -15px -15px 0px 0px blue;
+}
+.box-shadow-multi-three {
+  box-shadow: -5px -5px 4px 0px red, 
+              5px 5px 4px 0px green;
+}
+.box-shadow-multi-four {
+  box-shadow: -4px -4px 4px 0px red, 
+              4px 4px 4px 0px green;
+}
+
+/* Inset Shadow */
+.inset-box-one {
+  box-shadow: inset 5px 5px 0px 0px black;
+}
+.inset-box-two {
+  box-shadow: inset 0px 0px 0px 5px black;
+}
+.inset-box-three {
+  box-shadow: inset 3px 3px 10px 2px black;
+}
+
+/* Outset & Inset */
+.outset-inset {
+  box-shadow: inset 2px 2px 4px 0px #ffffff, 
+              inset -2px -2px 8px 0px #c3c3c3, 
+              -3px -3px 4px 0px #fff, 
+              2px 3px 10px 0px #cacaca;
+}
+
+
+/* Background Colors */
+
+.bg-blue {
+  background-color: #4075d4;
+  color: white;
+}
+.bg-light {
+  background-color: #eeeeee;
+  color: black;
+}
+.bg-dark {
+  background-color: #2b2b2b;
+}
