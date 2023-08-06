@@ -1,0 +1,37 @@
+.card {
+  padding: 20px;
+}
+
+.app-bar {
+  margin-bottom: 20px;
+}
+
+.profile-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.profile-image {
+  margin: 5px auto 30px auto;
+}
+
+.profile-name {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-position {
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.profile-detail {
+    margin: 5px auto;
+    text-align: center;
+}
+  
+.app-button {
+  margin: 20px auto 0px auto;
+}

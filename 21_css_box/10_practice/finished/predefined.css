@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  background-color: #f0f0f7;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.shadow {
+  box-shadow: inset 1px 1px 2px 0px #ededed99, inset -2px -2px 8px 0px #c3c3c342,
+    -6px -6px 12px 2px #fff, 6px 6px 15px 2px #b6b6b6bd;
+}
+
+.shadow-sm {
+  box-shadow: inset 1px 1px 2px 0px #ededed99, inset -1px -1px 0px 0px #c3c3c342,
+    -6px -6px 12px 2px #fff, 4px 4px 8px 0px #b6b6b6bd;
+}
+
+.inset-shadow-sm {
+  box-shadow: 1px 1px 2px 0px #ededed99, -1px -1px 0px 0px #c3c3c342,
+    inset -6px -6px 12px 2px #fff, inset 4px 4px 8px 0px #b6b6b6bd;
+}
+
+.card {
+  border-radius: 30px;
+  max-width: 360px;
+  min-height: 500px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.app-bar {
+  display: flex;
+}
+
+.app-bar > * {
+  display: inline-block;
+}
+
+.app-icon-img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.app-icon-img-heart {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.app-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.app-icon-heart {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-title {
+  flex: 1;
+  font-size: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 20px;
+  position: relative;
+}
+
+.profile-image::after {
+  content: "";
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  box-shadow: 1px 1px 16px 0px #c4c4c4, -1px -1px 0px 0px #b3b3b363,
+    inset -3px -1px 5px 0px #fff, inset 0px 0px 15px 0px #b6b6b6bd;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-position {
+  color: #999999;
+}
+
+
+.app-button {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
