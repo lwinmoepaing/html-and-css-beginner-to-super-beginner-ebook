@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  margin: 5px 15px;
+}
+
+h2 {
+  margin: 15px 15px;
+}
+
+/* List Style Type */
+.disc {
+  list-style-type: disc;
+}
+.circle {
+  list-style-type: circle;
+}
+.square {
+  list-style-type: square;
+}
+
+/* Order Style Type */
+.decimal {
+  list-style-type: decimal;
+}
+.decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+.lower-alpha {
+  list-style-type: lower-alpha;
+}
+.upper-alpha {
+  list-style-type: upper-alpha;
+}
+.lower-roman {
+  list-style-type: lower-roman;
+}
+.upper-roman {
+  list-style-type: upper-roman;
+}
+
+/* Custom List Image */
+.heart-shape {
+  list-style-image: url("images/HeartIcon.png");
+}
+
+.star-shape {
+  list-style-image: url("images/StarIcon.png");
+}
+
+.pixel-shape {
+  list-style-image: url("images/PixelIcon.png");
+}
+
+/* List Style Position */
+.inside {
+  list-style-image: url("images/StarIcon.png");
+  list-style-position: inside;
+}
+
+.outside {
+  list-style-image: url("images/StarIcon.png");
+  list-style-position: inside;
+}
+
+.short {
+  list-style: inside cirlce url("images/HeartIcon.png");
+}
