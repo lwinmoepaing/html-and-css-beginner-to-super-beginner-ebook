@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid #222;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.width-50-percent {
+  width: 50%;
+}
+
+.width-33-percent {
+  width: 33.33%;
+}
+
+.width-66-percent {
+  width: 66.66%;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-both {
+  clear: both;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  border: 1px solid #222;
+  width: 200px;
+  height: 200px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
