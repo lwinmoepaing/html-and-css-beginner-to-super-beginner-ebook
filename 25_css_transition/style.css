@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    padding: 1rem;
+}
+
+div {
+    margin-top: 1rem;
+}
+
+.button {
+  color: white;
+  background-color: #2196f3;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #de1767;
+}
+
+.button {
+  transition: background-color 0.3s ease-in-out 0s;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border-radius: 2px;
+  color: white;
+  padding: 4px;
+  background-color: #4875ba;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.box:hover {
+  width: 120px;
+  height: 120px;
+}
