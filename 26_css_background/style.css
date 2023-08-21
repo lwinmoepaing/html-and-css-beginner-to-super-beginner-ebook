@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 4px;
+  border: 2px solid red;
+
+  width: 800px;
+  height: 800px;
+
+  background-image: url("leaves.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
