@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 500px;
+  height: 500px;
+  border: 3px solid #dfdfdf;
+  border-radius: 10px;
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  color: white;
+  padding: 4px;
+  top: 10px;
+  left: 20px;
+}
+
+.relative {
+  position: relative;
+}
+
+.static {
+  position: static;
+}
+
+.bg-rose {
+  background-color: #de1767;
+}
+
+.bg-blue {
+  background-color: #4875ba;
+}

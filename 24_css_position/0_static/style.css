@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #de1767;
+  border-radius: 2px;
+}
+
+.static {
+  position: static;
+}
+
+.parent {
+  display: flex;
+}
