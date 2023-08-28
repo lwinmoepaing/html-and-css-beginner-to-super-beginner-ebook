@@ -1,0 +1,34 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, minmax(200px, auto));
+  grid-gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.grid-1 {
+  align-items: start;
+  justify-items: start;
+}
+
+.box {
+  padding: 1rem;
+  background-color: #74b9ff;
+}
+
+.box:nth-child(even) {
+  background-color: #a29bfe;
+}
+
+.box-1 {
+  justify-self: center;
+  align-self: center;
+}
+.box-2 {
+  justify-self: end;
+}
+
+.box-3 {
+  justify-self: end;
+  align-self: start;
+}

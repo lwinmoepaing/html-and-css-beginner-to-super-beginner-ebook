@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  /* grid-auto-rows: 200px; */
+  /* grid-auto-rows: minmax(200px, auto); */
+
+  /* grid-template-rows: 100px 200px 300px; */
+  grid-template-rows: repeat(3, minmax(50px, auto));
+}
+
+.box {
+  background-color: #74b9ff;
+}
+
+.box:nth-child(even) {
+  background-color: #a29bfe;
+}
