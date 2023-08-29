@@ -31,21 +31,74 @@
 .section {
   margin-bottom: 20px;
 }
-
 .section-title-group {
   padding-top: 80px;
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .section-title-group > h2 {
   margin-bottom: 4px;
 }
-
 .section-coffee-img {
   width: 120px;
 }
-
 .section-right-container {
   padding: 16px 40px;
+}
+
+/* Coffee List Styles */
+.coffee-card-container {
+  margin-bottom: 20px;
+}
+.coffee-card-img {
+  min-height: 320px;
+  border-radius: 20px;
+}
+.coffee-card-text-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: center;
+}
+.card-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.coffee-card-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.coffee-first-card-img {
+  background-image: url("../images/coffee-card-img-1.png");
+}
+.coffee-second-card-img {
+  background-image: url("../images/coffee-card-img-2.png");
+}
+.coffee-third-card-img {
+  background-image: url("../images/coffee-card-img-3.png");
+}
+.coffee-fourth-card-img {
+  background-image: url("../images/coffee-card-img-4.png");
+}
+
+/* Feature Coffee Section Style */
+.feature-coffee {
+  margin-bottom: 20px;
+}
+.feature-coffee-text {
+  padding: 40px;
+}
+.feature-coffee-image {
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  background-image: url("../images/feature-coffee-img.png");
+}
+
+/* Footer Style */
+.footer {
+  padding: 20px 40px;
 }
