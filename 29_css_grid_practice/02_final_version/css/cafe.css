@@ -1,0 +1,51 @@
+/* Navigation Styles */
+.navbar {
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.nav-title {
+  padding-top: 10px;
+}
+
+.nav-link-group {
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+}
+
+.nav-link-group > .link {
+  text-decoration: none;
+}
+
+.menu-icon {
+  border: 1px solid #dfdfdf;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title-group {
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-title-group > h2 {
+  margin-bottom: 4px;
+}
+
+.section-coffee-img {
+  width: 120px;
+}
+
+.section-right-container {
+  padding: 16px 40px;
+}

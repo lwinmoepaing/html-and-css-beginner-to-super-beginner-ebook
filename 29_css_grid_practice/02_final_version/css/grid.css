@@ -1,0 +1,31 @@
+/* Grid Styles */
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.col-3 {
+  grid-column: auto / span 3;
+}
+
+.col-4 {
+  grid-column: auto / span 4;
+}
+
+.col-5 {
+  grid-column: auto / span 5;
+}
+
+.col-6 {
+  grid-column: auto / span 6;
+}
+
+.col-7 {
+  grid-column: auto / span 7;
+}
+
+.col-12 {
+  grid-column: auto / span 12;
+}
