@@ -1,14 +1,14 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, minmax(200px, auto));
+  grid-auto-rows: minmax(200px, auto);
   grid-gap: 10px;
   margin-bottom: 1rem;
 }
 
 .grid-1 {
-  align-items: start;
-  justify-items: start;
+  /* justify-items: start; */
+  /* align-items: start; */
 }
 
 .box {
@@ -21,14 +21,19 @@
 }
 
 .box-1 {
-  justify-self: center;
-  align-self: center;
+  /* justify-self: center; */
+  /* align-self: center; */
 }
 .box-2 {
-  justify-self: end;
+  /* justify-self: center; */
 }
 
 .box-3 {
-  justify-self: end;
-  align-self: start;
+  /* justify-self: end; */
+  /* align-self: start; */
+}
+
+.box-4 {
+  /* justify-self: stretch; */
+  /* align-self: stretch; */
 }
