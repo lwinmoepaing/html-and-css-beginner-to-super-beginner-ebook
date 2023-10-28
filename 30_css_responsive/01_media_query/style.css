@@ -1,0 +1,10 @@
+.container {
+  background-color: black;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .container {
+    background-color: red;
+  }
+}

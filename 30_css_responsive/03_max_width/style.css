@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  padding-left: 10px;
+}
+
+/* From Only Phone */
+@media screen and (max-width: 640px) {
+  .title {
+    text-align: left;
+    border-left: 4px solid #ff2424;
+  }
+}

@@ -1,0 +1,8 @@
+/* From Only Tablet Size */
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .title {
+    text-align: center;
+    font-size: 40px;
+    color: #ff2424;
+  }
+}

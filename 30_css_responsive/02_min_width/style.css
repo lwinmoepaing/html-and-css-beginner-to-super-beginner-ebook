@@ -1,0 +1,54 @@
+.title {
+  border-left: 4px solid #ff2424;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.button {
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* From Large Screen Phone */
+@media screen and (min-width: 640px) {
+  .title {
+    border-left: none;
+    text-align: center;
+  }
+
+  .button {
+    width: 400px;
+  }
+}
+
+/* From Tablet */
+@media screen and (min-width: 768px) {
+  .title {
+    color: #ff2424;
+    font-size: 46px;
+  }
+
+  .button {
+    color: #ff2424;
+    border-color: #ff2424;
+    background: white;
+    font-size: 16px;
+  }
+}
+
+/* From Laptop */
+@media screen and (min-width: 1024px) {
+  .title {
+    color: #ff2424;
+    text-decoration: underline;
+  }
+
+  .button {
+    text-decoration: underline;
+  }
+}

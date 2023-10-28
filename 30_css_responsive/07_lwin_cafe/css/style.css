@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Font Styles  */
+.font-large-title {
+  font-size: 48px;
+}
+.font-title {
+  font-size: 32px;
+}
+.font-body {
+  font-size: 16px;
+}
+.font-bold {
+  font-weight: 500;
+}
+
+/* Color Styles */
+.color-black {
+  color: #000;
+}
+.color-blue {
+  color: #1d63af;
+}
+
+/* Button Style */
+.button {
+  height: 46px;
+  padding: 0 28px;
+  border: 1px solid #dfdfdf;
+  border-radius: 23px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Helpers */
+.margin-bottom-20px {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-16px {
+  margin-bottom: 16px;
+}
+
+/* Later we'll learn more about display:flex */
+.item-center-helper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-around-helper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-between-helper {
+  display: flex;
+  justify-content: space-between;
+}

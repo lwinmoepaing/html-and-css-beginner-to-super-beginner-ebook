@@ -1,0 +1,136 @@
+/* Navigation Styles */
+.navbar {
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.nav-title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-title {
+    text-align: left;
+  }
+}
+
+.nav-link-group {
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+}
+
+.nav-link-group > .link {
+  text-decoration: none;
+}
+
+.menu-icon {
+  border: 1px solid #dfdfdf;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: auto;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-icon {
+    display: flex;
+  }
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 20px;
+}
+.section-title-group {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-title-group {
+    padding-top: 80px;
+  }
+}
+
+.section-title-group > h2 {
+  margin-bottom: 4px;
+}
+.section-coffee-img {
+  width: 120px;
+}
+.section-right-container {
+  padding: 16px 40px;
+}
+
+/* Coffee List Styles */
+.coffee-card-container {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.coffee-card-img {
+  min-height: 320px;
+  border-radius: 20px;
+}
+.coffee-card-text-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .coffee-card-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.card-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.coffee-card-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.coffee-first-card-img {
+  background-image: url("../images/coffee-card-img-1.png");
+}
+.coffee-second-card-img {
+  background-image: url("../images/coffee-card-img-2.png");
+}
+.coffee-third-card-img {
+  background-image: url("../images/coffee-card-img-3.png");
+}
+.coffee-fourth-card-img {
+  background-image: url("../images/coffee-card-img-4.png");
+}
+
+/* Feature Coffee Section Style */
+.feature-coffee {
+  margin-bottom: 20px;
+}
+.feature-coffee-text {
+  padding: 40px;
+}
+.feature-coffee-image {
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  background-image: url("../images/feature-coffee-img.png");
+}
+
+/* Footer Style */
+.footer {
+  padding: 20px 40px;
+}

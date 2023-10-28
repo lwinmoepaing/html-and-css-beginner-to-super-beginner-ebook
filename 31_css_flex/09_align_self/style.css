@@ -1,6 +1,6 @@
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
 }
 
 .align-self-start {
@@ -15,9 +15,13 @@
   align-self: center;
 }
 
+.align-self-stretch {
+  align-self: stretch;
+}
+
 .container-style {
-  max-width: 320px;
-  min-height: 320px;
+  max-width: 360px;
+  min-height: 360px;
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 5px;
@@ -33,7 +37,7 @@
   margin: 0.3rem;
   border-radius: 5px;
   position: relative;
-  padding: 8px;
+  padding: 10px;
 }
 
 .box:nth-child(4n + 1) {
