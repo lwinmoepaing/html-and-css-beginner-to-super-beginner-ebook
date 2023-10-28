@@ -1,36 +1,53 @@
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
-  row-gap: 20px;
-  column-gap: 20px;
-  /* gap: 20px; */
-  /* gap: 50px 20px */
+  flex-direction: row;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
 }
 
 .container-style {
-  max-width: 480px;
-  margin: 0 auto;
-  background: #e2feff;
+  max-width: 320px;
+  min-height: 320px;
+  margin: 1rem auto;
   padding: 1rem;
+  border-radius: 5px;
+  background-color: #e2feff;
+}
+
+.box-style {
+  width: 80px;
+  height: 80px;
 }
 
 .box {
-  width: 80px;
-  height: 80px;
-  /* margin: 0.3rem; */
+  margin: 0.3rem;
   border-radius: 5px;
   position: relative;
+  padding: 8px;
 }
 
 .box:nth-child(4n + 1) {
   background-color: #74b9ff;
 }
+
 .box:nth-child(4n + 2) {
   background-color: #ffbe76;
 }
+
 .box:nth-child(4n + 3) {
   background-color: #ff7979;
 }
+
 .box:nth-child(4n + 4) {
   background-color: #7ed6df;
 }
@@ -41,8 +58,4 @@
   align-items: center;
   font-size: 20px;
   color: white;
-}
-
-.padding-top-40px {
-  padding-top: 40px;
 }
