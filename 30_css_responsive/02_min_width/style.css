@@ -14,7 +14,7 @@
   width: 100%;
 }
 
-/* From Large Screen Phone */
+/* For Tablet */
 @media screen and (min-width: 640px) {
   .title {
     border-left: none;
@@ -26,7 +26,7 @@
   }
 }
 
-/* From Tablet */
+/* For Large Tablet */
 @media screen and (min-width: 768px) {
   .title {
     color: #ff2424;
@@ -41,7 +41,7 @@
   }
 }
 
-/* From Laptop */
+/* For Laptop and Upper Desktop */
 @media screen and (min-width: 1024px) {
   .title {
     color: #ff2424;

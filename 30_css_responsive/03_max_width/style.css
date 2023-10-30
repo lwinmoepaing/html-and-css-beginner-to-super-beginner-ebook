@@ -3,7 +3,7 @@
   padding-left: 10px;
 }
 
-/* From Only Phone */
+/* For Only Phone */
 @media screen and (max-width: 640px) {
   .title {
     text-align: left;

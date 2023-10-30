@@ -88,7 +88,7 @@
   }
 }
 
-/* For Laptop */
+/* For Larger Tablet */
 @media screen and (min-width: 768px) {
   .md\:col-1 {
     grid-column: auto / span 1;
@@ -128,7 +128,7 @@
   }
 }
 
-/* For Desktop */
+/* For Laptop And Upper Desktop */
 @media screen and (min-width: 1024px) {
   .lg\:col-1 {
     grid-column: auto / span 1;

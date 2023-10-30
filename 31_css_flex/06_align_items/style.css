@@ -3,8 +3,9 @@
   flex-direction: row;
   align-items: flex-start;
   /* align-items: flex-end; */
-  /* align-items: baseline; */
   /* align-items: center; */
+  /* align-items: stretch; */
+  /* align-items: baseline; */
 }
 
 .min-height-120px {
@@ -32,7 +33,6 @@
 
 .box {
   width: 80px;
-  height: 80px;
   margin: 0.3rem;
   border-radius: 5px;
   position: relative;
